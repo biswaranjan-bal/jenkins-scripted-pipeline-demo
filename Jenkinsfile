@@ -28,8 +28,8 @@ node {
         echo "Workspace: ${env.WORKSPACE}"
         
         // Set tool locations
-        javaHome = tool name: 'java-17', type: 'jdk'
-        mavenHome = tool name: 'maven-3', type: 'maven'
+        javaHome = tool name: 'JDK17', type: 'jdk'
+        mavenHome = tool name: 'Maven3.6.3', type: 'maven'
         
         // Set environment variables
         env.JAVA_HOME = javaHome
